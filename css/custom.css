@@ -1,0 +1,163 @@
+*{
+    padding: px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header .navbarHome {
+    font: bold;
+    font-weight: bold;
+    lighting-color: blue;
+    font-size: 18px;
+    align-content: flex-end;
+    
+    
+}
+
+
+body {
+    background-image: url(../img/harina.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-content: space-between;
+    padding:2px;
+    
+
+}
+
+.carousel-inner img {
+    display: flex;
+    width: 100%;
+    max-height: 460px;
+}
+
+.contacto{
+    flex-flow: column;
+    align-content: center;
+    border: 1rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding:2px
+    
+    
+    
+    
+}
+
+
+.boton {
+    
+    align-items: center;
+    
+}
+
+.carousel-inner{
+ height: 200px;
+}
+
+ 
+footer {
+    font-weight: bold;
+    padding-top: 200px;
+    text-align: end;
+    opacity: 100%;
+    font-family: 'Roboto', sans-serif;
+    align-content: center; 
+    color: white;
+    size: 1rem;
+}    
+
+
+/* ---TABLETAS */
+@media (min-width:768px){
+     body{
+        background-color: rgb(0, 0, 0);
+    }
+    .carousel-inner img {
+        display: flex;
+        width: 100%;
+        max-height: 460px;
+    }
+    
+    .carousel-inner{
+     height: 200px;
+    }
+    
+}
+
+@media (min-width:768px){
+    .boton{
+        align-items: center;
+        align-content: center;
+        padding-left: 0%;
+        padding-top: 10%;
+
+    }
+    .contacto{
+        align-self: auto;
+    }
+}
+    
+
+
+/* ----ESCRITORIO NORMAL----- */
+@media (min-width: 1000px){
+    body{
+        display: content;
+        align-content: flex-end;
+        background-color: rgb(0, 0, 0);
+        }
+}
+    .carousel-inner img {
+    max-height: 200px;
+    width: 100%;
+    max-height: 10%;
+}
+
+.carousel-inner{
+ height: 200px;
+
+}
+@media (min-width: 1000px){
+    .container1 {
+        display: flex;
+        align-content: center;
+        
+        
+
+    }
+    
+    
+    
+}
+@media (min-width: 1000px){
+    .boton{
+        display: center;
+        align-content: center;
+        font-size: 18px;
+        border-width: 5rem;
+        min-block-size: 3rem;
+        width: 300px;
+        
+    }
+
+    .tarjetas{
+        padding-top: 15px;
+
+
+    }      
+
+    .contactForm{
+        background-image: url(/responsive/img/banner-header.png)
+ 
+        
+    }
+    .contactForm{
+        display: flex;
+        padding-left: 3rem;
+        margin-right: 3rem;
+        padding-top: 3rem;
+    }
+}
