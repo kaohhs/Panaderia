@@ -12,11 +12,20 @@ header .navbarHome {
     align-content: flex-end;
     
     
+    
 }
+a {
+    background-color: rgb(163, 120, 120);
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: rgb(116, 108, 107);
+  }
 
 .navbar-var {
     font-size: large;
-    
+    color: black;
     
 }
 
@@ -128,18 +137,28 @@ footer {
 @media (min-width: 1000px){
     .container1 {
         display: flex;
-        align-content: center;
+        align-content: space-between;
         
         
 
     }
+
+
     
     
     
 }
+
+@media (min-width: 1000px){
+    .card-img-top {
+        width: 100%;
+    }
+}
+
+
 @media (min-width: 1000px){
     .boton{
-        display: center;
+        display: flex;
         align-content: center;
         font-size: 18px;
         border-width: 5rem;
@@ -150,6 +169,7 @@ footer {
 
     .tarjetas{
         padding-top: 15px;
+        image-rendering: auto;
 
 
     }      
