@@ -99,8 +99,7 @@ footer {
 
 @media (min-width:1000px){
      #opcionessuperiores  {
-        align-content: 3rem;
-        font-size: 70px;
+        color: black;    
         text-decoration: underline;
         ;
     }
