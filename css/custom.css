@@ -8,12 +8,17 @@ header .navbarHome {
     font: bold;
     font-weight: bold;
     lighting-color: blue;
-    font-size: 18px;
+    font-size: 25px;
     align-content: flex-end;
     
     
 }
 
+.navbar-var {
+    font-size: large;
+    
+    
+}
 
 body {
     background-image: url(../img/harina.png);
