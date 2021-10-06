@@ -93,6 +93,15 @@ footer {
   }
 }
 
+.suscripcionmail {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    align-content: stretch;
+    justify-content: space-between;
+}
+@media  (min-width: 1000px) {
+    
+}
 
 
 @media (min-width: 1000px) {
