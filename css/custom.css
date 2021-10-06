@@ -97,11 +97,13 @@ footer {
 
 /* ----ESCRITORIO NORMAL----- */
 
-@media (min-width:1000px){
+
+
+@media  (min-width:1000px){
      #opcionessuperiores  {
         color: black;    
         text-decoration: underline;
-        ;
+        font-size: 50px
     }
 }
 
