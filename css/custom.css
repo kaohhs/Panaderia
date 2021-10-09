@@ -10,6 +10,19 @@
   background-size: contain;
 }
 
+#textosuperior a {
+    size: 5px;
+    text-align-last: center;
+    border-color: royalblue;
+    border-width: 2%;
+    border: solid 15px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-color: rgb(116, 108, 107);
+
+}
+
 header .navbarHome {
   font: bold;
   font-weight: bold;
@@ -97,8 +110,11 @@ footer {
     color: black;
     text-decoration: underline;
     font-size: 50px;
+    border-radius: 3rem;
+    
   }
 }
+
 
 .suscripcionmail {
   padding-top: 3rem;
