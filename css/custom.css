@@ -16,6 +16,10 @@ a {
   transition: background-color 0.5s;
 }
 
+header text {
+  justify-content:space-between ;
+}
+
 a:hover {
   background-color: rgb(116, 108, 107);
 }
@@ -260,6 +264,4 @@ footer {
   
 }
 
-.card-title {
-  border-radius: 16px;
-}
+
