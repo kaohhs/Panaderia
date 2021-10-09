@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.navbar-brand img {
+  border-radius: 1rem;
+  border-color: lawngreen;
+  background-size: contain;
+}
+
 header .navbarHome {
   font: bold;
   font-weight: bold;
@@ -17,7 +23,7 @@ a {
 }
 
 header text {
-  justify-content:space-between ;
+  justify-content: space-between;
 }
 
 a:hover {
@@ -82,7 +88,6 @@ footer {
     padding-left: 0%;
     padding-top: 10%;
   }
-  
 }
 
 /* ----ESCRITORIO NORMAL----- */
@@ -96,15 +101,13 @@ footer {
 }
 
 .suscripcionmail {
-    padding-top: 3rem;
-    padding-left: 3rem;
-    align-content: stretch;
-    justify-content: space-between;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  align-content: stretch;
+  justify-content: space-between;
 }
-@media  (min-width: 1000px) {
-    
+@media (min-width: 1000px) {
 }
-
 
 @media (min-width: 1000px) {
   body {
@@ -137,7 +140,6 @@ footer {
   }
 }
 
-
 @media (min-width: 1000px) {
   .boton {
     display: flex;
@@ -147,8 +149,6 @@ footer {
     min-block-size: 3rem;
     width: 300px;
   }
-
-
 }
 .heading {
   size: larger;
@@ -198,7 +198,7 @@ footer {
   outline: none;
   border: 0;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
 }
 .widget_blog_subscription input[type="text"]::-webkit-input-placeholder {
   color: #69d2e7;
@@ -214,16 +214,16 @@ footer {
 }
 .widget_blog_subscription input[type="submit"] {
   margin: 0;
-  background-color: #69d2e7;
+  background-color: #a37878;
   color: #fff;
-  padding: 25px 15px !important;
+  padding: 25px 15px;
   text-align: center;
   width: 100%;
   max-width: 100%;
   outline: none;
   border: 0;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
   -webkit-transition: 0.1s all ease-in-out;
   -moz-transition: 0.1s all ease-in-out;
@@ -234,34 +234,48 @@ footer {
   background-color: rgb(163, 120, 120);
 }
 
-
 .fondocards a {
-  
   box-sizing: border-box;
-  text-align: center;
-  border-spacing: inherit;
   color: rgb(246, 253, 253);
   background-color: rgb(163, 120, 120);
   border-radius: 3rem;
   border-width: 5rem;
   align-items: center;
-  background-color: rgb(163, 120, 120);
+  background-color: #a37878;
   transition: background-color 0.5s;
-  }
-  
-  a:hover {
-    background-color: rgb(116, 108, 107);
+  box-sizing: content-box;
+  width: 50%;
+  border: solid #bb5f29d2 5px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
 }
-  
+
+
+a:hover {
+  background-color: rgb(116, 108, 107);
+}
+
+.card-body {
+  text-align: end;
+  text-decoration: hotpink;
+}
 
 .card-text {
   text-align: center;
+  font-weight: normal;
   
 }
 
 .card-group h5 {
   text-align: center;
-  
+  padding-bottom: 1rem;
 }
 
-
+.card-group img {
+  background-image: url(../img/cafemolido.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
