@@ -78,9 +78,7 @@ footer {
     padding-left: 0%;
     padding-top: 10%;
   }
-  .contacto {
-    align-self: auto;
-  }
+  
 }
 
 /* ----ESCRITORIO NORMAL----- */
@@ -135,6 +133,7 @@ footer {
   }
 }
 
+
 @media (min-width: 1000px) {
   .boton {
     display: flex;
@@ -143,11 +142,6 @@ footer {
     border-width: 5rem;
     min-block-size: 3rem;
     width: 300px;
-  }
-
-  .tarjetas {
-    padding-top: 15px;
-    image-rendering: auto;
   }
 
 
@@ -237,3 +231,35 @@ footer {
 }
 
 
+.fondocards a {
+  
+  box-sizing: border-box;
+  text-align: center;
+  border-spacing: inherit;
+  color: rgb(246, 253, 253);
+  background-color: rgb(163, 120, 120);
+  border-radius: 3rem;
+  border-width: 5rem;
+  align-items: center;
+  background-color: rgb(163, 120, 120);
+  transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: rgb(116, 108, 107);
+}
+  
+
+.card-text {
+  text-align: center;
+  
+}
+
+.card-group h5 {
+  text-align: center;
+  
+}
+
+.card-title {
+  border-radius: 16px;
+}
