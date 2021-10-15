@@ -8,9 +8,11 @@
   border-radius: 1rem;
   border-color: lawngreen;
   background-size: contain;
+  
 }
 
-#textosuperior a {    size: 5px;
+#textosuperior a {    
+    size: 5px; 
     text-align-last: center;
     border-color: royalblue;
     border-width: 2%;
@@ -19,7 +21,7 @@
     box-sizing: border-box;
     border-width: 3px;
     border-color: rgb(116, 108, 107);
-
+    
 }
 
 #maparesponsive {
@@ -59,7 +61,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   padding: 2px;
 }
 
@@ -75,13 +76,13 @@ body {
 
 footer {
   font-weight: bold;
-  padding-top: 200px;
+  padding-top: 50px;
   text-align: end;
   opacity: 100%;
   font-family: "Roboto", sans-serif;
   align-content: center;
   color: white;
-  size: 1rem;
+  size: 2rem;
 }
 
 /* ---TABLETAS */
@@ -297,16 +298,19 @@ a:hover {
 }
 
 .card-group img {
-  background-image: url(../img/cafemolido.jpg);
-  background-size: cover;
+  background-image: url(../img/cafemolido2.jpg);
   background-repeat: no-repeat;
-  display: flex;
-  object-fit: cover;
+  object-fit: cover; 
   max-height: 350px;
+  ;  
 }
 
 .card-group {
   display: flex;
   align-content: end;
 
+}
+
+.card-group text {
+  align-self: flex-end;
 }
