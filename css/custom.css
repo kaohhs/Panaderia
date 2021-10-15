@@ -12,6 +12,7 @@
 }
 
 #textosuperior a {    
+    
     size: 5px; 
     text-align-last: center;
     border-color: royalblue;
@@ -38,6 +39,8 @@ header .navbarHome {
   font-size: 25px;
   align-content: flex-end;
 }
+
+
 a {
   background-color: rgb(163, 120, 120);
   transition: background-color 0.5s;
@@ -45,6 +48,7 @@ a {
 
 header text {
   justify-content: space-between;
+  
 }
 
 a:hover {
