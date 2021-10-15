@@ -288,6 +288,7 @@ a:hover {
   text-align: center;
   font-weight: normal;
   
+  
 }
 
 .card-group h5 {
@@ -299,5 +300,13 @@ a:hover {
   background-image: url(../img/cafemolido.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  
+  display: flex;
+  object-fit: cover;
+  max-height: 350px;
+}
+
+.card-group {
+  display: flex;
+  align-content: end;
+
 }
