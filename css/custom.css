@@ -12,8 +12,8 @@
 }
 
 #textosuperior a {    
-    
-    size: 5px; 
+    align-items: flex-start;
+    size: 1rem; 
     text-align-last: center;
     border-color: royalblue;
     border-width: 2%;
@@ -25,12 +25,14 @@
     
 }
 
-#maparesponsive {
-  margin-left: 0%;
-  margin-block-start: 1px ;
-  padding: 0%;
-  size-adjust: auto;
+
+  #maparesponsive {
+    align-content: flex-start;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 0%;
 }
+
 
 header .navbarHome {
   font: bold;
@@ -129,7 +131,7 @@ footer {
 
 .suscripcionmail {
   padding-top: 3rem;
-  padding-left: 3rem;
+
   align-content: stretch;
   justify-content: space-between;
 }
@@ -317,4 +319,29 @@ a:hover {
 
 .card-group text {
   align-self: flex-end;
+}
+
+
+.maparesponsive iframe  {
+  width: -webkit-fill-available;
+  border-radius: 20%;
+  /* margin-left: 10%; */
+  border-spacing: 5px;
+  border-width: 1rem;
+  border-color: #f38630;
+  
+
+}    
+
+
+@media  (min-width: 1000px) {
+  .maparesponsive iframe  {
+    width: -webkit-fill-available;
+    border-radius: 20%;
+    margin-left: 10%;
+    border-spacing: 5px;
+    border-width: 1rem;
+    border-color: #f38630;
+  }
+
 }
