@@ -22,6 +22,7 @@
     box-sizing: border-box;
     border-width: 3px;
     border-color: rgb(116, 108, 107);
+    align-content: flex-start;
     
 }
 
@@ -63,6 +64,7 @@ a:hover {
 }
 
 body {
+  
   background-image: url(../img/harina.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -301,6 +303,8 @@ a:hover {
 .card-group h5 {
   text-align: center;
   padding-bottom: 1rem;
+  
+  
 }
 
 .card-group img {
@@ -312,20 +316,20 @@ a:hover {
 }
 
 .card-group {
-  display: flex;
+  display: inline;
   align-content: end;
 
 }
 
 .card-group text {
-  align-self: flex-end;
+  align-self: auto;
 }
 
 
 .maparesponsive iframe  {
+  padding: 1px, 1px, 1px ;
   width: -webkit-fill-available;
   border-radius: 20%;
-  /* margin-left: 10%; */
   border-spacing: 5px;
   border-width: 1rem;
   border-color: #f38630;
@@ -344,4 +348,10 @@ a:hover {
     border-color: #f38630;
   }
 
+}
+@media  (min-width: 1000px) {
+  .card-group {
+  display: flex;
+
+}
 }
