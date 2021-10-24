@@ -1,5 +1,5 @@
 const express = require('express');
-const { handlebars } = require('hbs');
+// const { handlebars } = require('hbs');
 const app = express();
 const port = 3000;
 const hbs = require('hbs');
@@ -59,9 +59,8 @@ app.get('/pastas', (req, res) => {
     app.get('404', (req, res) => {
       res.sendFile(__dirname +  'public/404.html')
 
+      app.listen(port, () => {
+        console.log(`Usando el puerto http://localhost:${port}`);
+      });
 
    })
-
-   app.listen(port, () => {
-    console.log(`Usando el puerto http://localhost:${port}`);
-  });
