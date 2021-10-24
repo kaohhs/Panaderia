@@ -9,7 +9,7 @@ const hbs = require('hbs');
 
 
 app.set('view engine', 'hbs')
-hbs.registerPartials(__dirname + "/views/partials/")
+hbs.registerPartials(__dirname + "/views/partials/");
 
 app.get('/', (req, res) => {
   res.render ('index'); {
@@ -36,14 +36,14 @@ app.get('/', (req, res) => {
 )
 
 app.get('/contacto', (req, res) => {
-  req.render; ('contacto'); {
+  req.render ('contacto'); {
   
 }}
 
 )
 
 app.get('/pastas', (req, res) => {
-  req.render; ('pastas'); {
+  req.render ('pastas'); {
   
 }}
 
