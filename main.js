@@ -29,7 +29,7 @@ app.get('/contacto', (req, res) => {
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-  res.render; ('index'); {
+  res.render ('index'); {
   
 }}
 
