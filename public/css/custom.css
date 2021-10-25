@@ -6,11 +6,30 @@
 
 .navbar-brand img {
   display: flex;
-  border-radius: 1rem;
+  border-radius: 3rem;
   border-color: lawngreen;
   background-size: contain;
   flex-wrap: wrap-reverse;
 }
+
+.navbarHome img {
+  border-radius: 1rem;
+  border-color: grey;
+}
+
+#formContacto {
+  flex-direction: column;
+  background-image: url(/images/banner-header.png);
+  text-emphasis-color: white;
+  
+}
+
+#formContacto text {
+  font-size: 2rem;
+  color: white;
+}
+
+
 
 #textosuperior a {
   align-items: flex-start;
@@ -361,3 +380,13 @@ a:hover {
     display: flex;
   }
 }
+
+
+@media (min-width: 1000px) {
+  .formContacto {
+    color: #f6f6f2;
+    display: flex;
+    background-image: url(/images/banner-header.png);
+  }
+}
+

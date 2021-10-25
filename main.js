@@ -18,7 +18,13 @@ app.get('/', (req, res) => {
 }}
 
 )
+app.get('/index', (req, res) => {
 
+  res.render('index'); {
+  
+}}
+
+)
 
 // contenido estatico
 
@@ -26,11 +32,18 @@ app.use(express.static('public'))
 
   
  
-app.get('/rrss', (req, res) => {
-     res.render('rrss'); {
+app.get('/contacto', (req, res) => {
+     res.render('contacto'); {
 
      }
 })
+
+app.get('/productos', (req, res) => {
+  res.render('productos'); {
+
+  }
+})
+
 
 app.get('404', (req, res) => {
     res.sendFile(__dirname +  'public/404.html')
