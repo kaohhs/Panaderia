@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+#container404 h1 {
+  display: center;
+  text-align: center;
+  
+  color: white;
+  border-width: 2%;
+  border: solid 15px;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  border-width: 3px;
+  background-color: rgb(163, 120, 120);
+  
+}
+
 .navbar-brand img {
   display: flex;
   border-radius: 3rem;

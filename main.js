@@ -68,11 +68,12 @@ app.get('/tienda', (req, res) => {
   }
 })
 
-app.get('404', (req, res) => {
-    res.sendFile(__dirname +  'public/404.html')
+app.get('*', (req, res) => {
+  res.render('404'); {
 
-      
+  }
 })
+
 
 app.listen(port, () => {
         console.log(`Usando el puerto http://localhost:${port}`);
