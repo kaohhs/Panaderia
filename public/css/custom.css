@@ -17,7 +17,7 @@
   border-color: grey;
 }
 
-#cardContacto {
+#cardContacto .card-body {
   background-image: url(/images/banner-header.png);
   background-color: black;
   padding-left: 1px;
@@ -54,6 +54,7 @@
   padding: 0%;
   margin: 0%;
   padding-left: 0%;
+  border-radius: 5px color #746c6b;
 }
 
 header .navbarHome {
