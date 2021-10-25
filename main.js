@@ -44,6 +44,11 @@ app.get('/productos', (req, res) => {
   }
 })
 
+app.get('/rrss', (req, res) => {
+  res.render('rrss'); {
+
+  }
+})
 
 app.get('404', (req, res) => {
     res.sendFile(__dirname +  'public/404.html')
