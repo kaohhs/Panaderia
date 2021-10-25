@@ -32,7 +32,7 @@
 }
 
 #cardContacto  {
-  
+  justify-content: center;
   background-image: url(/images/banner-header.png);
   background-color: black;
   padding-left: 1px;
