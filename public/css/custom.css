@@ -17,22 +17,26 @@
   border-color: grey;
 }
 
-#cardContacto .card-body {
+#cardContacto  {
+  
   background-image: url(/images/banner-header.png);
   background-color: black;
   padding-left: 1px;
   display: flex;
   flex-direction: column;
-
+  margin-left: 15%;
+  margin-right: 15%;
   text-emphasis-color: white;
   
 }
 
-#cardContacto text {
-  font-size: 2rem;
-  color: white;
+.checkbox {
+  display: center;
 }
 
+#card-header {
+  display: none;
+}
 
 
 #textosuperior a {
@@ -54,7 +58,7 @@
   padding: 0%;
   margin: 0%;
   padding-left: 0%;
-  border-radius: 5px color #746c6b;
+  border-radius: 5px, color #746c6b;
 }
 
 header .navbarHome {
@@ -144,13 +148,13 @@ footer {
 
 @media (min-width: 768px) {
   .card-group img {
+    display: flex;
     background-image: url(../images/cafemolido2.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     object-fit: cover;
-    min-width: none;
     max-height: 350px;
-
+    min-height: 350px;
   }
 }
 
@@ -160,6 +164,12 @@ footer {
     object-fit: cover;
     min-width: none;
     max-height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-group {
+    display: flex;
   }
 }
 
@@ -332,6 +342,7 @@ a:hover {
 .card-body {
   text-align: end;
   text-decoration: hotpink;
+  background-image: url(/public/images/banner-header.png);
 }
 
 .card-text {
@@ -394,4 +405,3 @@ a:hover {
     background-image: url(/images/banner-header.png);
   }
 }
-
