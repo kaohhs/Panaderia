@@ -17,14 +17,17 @@
   border-color: grey;
 }
 
-#formContacto {
+#cardContacto {
+  background-color: black;
+  padding-left: 1px;
+  display: flex;
   flex-direction: column;
   background-image: url(/images/banner-header.png);
   text-emphasis-color: white;
   
 }
 
-#formContacto text {
+#cardContacto text {
   font-size: 2rem;
   color: white;
 }
@@ -41,7 +44,7 @@
   border-radius: 1rem;
   box-sizing: border-box;
   border-width: 3px;
-  border-color: rgb(116, 108, 107);
+  border-color: #746c6b;
   align-content: flex-start;
 }
 
