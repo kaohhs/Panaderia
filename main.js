@@ -50,6 +50,24 @@ app.get('/rrss', (req, res) => {
   }
 })
 
+app.get('/pastas', (req, res) => {
+  res.render('pastas'); {
+
+  }
+})
+
+app.get('/cafe', (req, res) => {
+  res.render('cafe'); {
+
+  }
+})
+
+app.get('/tienda', (req, res) => {
+  res.render('tienda'); {
+
+  }
+})
+
 app.get('404', (req, res) => {
     res.sendFile(__dirname +  'public/404.html')
 
