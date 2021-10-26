@@ -1,2 +1,1 @@
 # panaderia
-# especias
